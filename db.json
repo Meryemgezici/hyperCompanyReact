@@ -1,0 +1,68 @@
+{
+    "menu":[
+        {
+            "id":1,
+            "title":"Menu Item",
+            "color":"#2f3e46",
+            "selected":false
+        },
+        {
+            "id":2,
+            "title":"Menu Item",
+            "color":"#354f52",
+            "selected":false
+        },
+        {
+            "id":3,
+            "title":"Menu Item",
+            "color":"#52796f",
+            "selected":false
+        },
+        {
+            "id":4,
+            "title":"Menu Item",
+            "color":"#84a98c",
+            "selected":false
+        },
+        {
+            "id":5,
+            "title":"Menu Item",
+            "color":"#669bbc",
+            "selected":false
+        },
+        {
+            "id":6,
+            "title":"Menu Item",
+            "color":"#003049",
+            "selected":false
+        },
+        {
+            "id":7,
+            "title":"Menu Item",
+            "color":"#8ecae6"
+        },
+        {
+            "id":8,
+            "title":"Menu Item",
+            "color":"#c1121f"
+        },
+        {
+            "id":9,
+            "title":"Menu Item",
+            "color":"#780000",
+            "selected":false
+        },
+        {
+            "id":10,
+            "title":"Menu Item",
+            "color":"#fb8500",
+            "selected":false
+        },
+        {
+            "id":11,
+            "title":"Menu Item",
+            "color":"#219ebc",
+            "selected":false
+        }
+    ]
+}
