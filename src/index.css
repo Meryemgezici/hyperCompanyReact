@@ -167,3 +167,40 @@ ul {
   margin-bottom: 20px;
   color: white;
 }
+
+/* Detail-page  */
+
+.detail-page{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: #e76f51;
+}
+
+/* Responsive */
+@media screen and (max-width: 768px) {
+  .menu-items {
+    display: none;
+  }
+
+  .sidebar {
+    display: none ;
+  }
+
+  .body-content {
+    width: 100vw; 
+  }
+
+  .form-container {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+
+  .form-input {
+    width: 100%;
+  }
+
+  
+}

@@ -19,7 +19,6 @@ const Homepage = () => {
 
   return (
     <div className="full-viewport">
-      <Header store={store} />
       <div className="body-container">
         <div className="body-content">
           <MenuItems store={store} dispatch={dispatch} />
@@ -27,7 +26,6 @@ const Homepage = () => {
         </div>
         <Sidebar title="Sidebar" />
       </div>
-      <Footer store={store} />
 
     </div>
   )

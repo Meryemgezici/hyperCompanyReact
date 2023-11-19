@@ -1,7 +1,7 @@
 const Detail = () => {
   return (
-    <div>
-      New Page 
+    <div className="detail-page">
+       <h1>Welcome</h1>
     </div>
   )
 }
