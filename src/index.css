@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;1,100&family=Raleway:wght@300&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;1,100&family=Raleway:wght@300&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400&display=swap");
 
 * {
   margin: 0;
@@ -7,7 +7,7 @@
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   background-color: #dad7cd;
 }
 
@@ -44,9 +44,9 @@ h1 {
   bottom: 0;
 }
 
-
 /* body css */
-.bodey-container {}
+.bodey-container {
+}
 
 .body-content {
   height: 100vh;
@@ -65,7 +65,6 @@ h1 {
   justify-content: center;
   align-items: center;
   width: 100px;
-
 }
 
 .menu-item {
@@ -74,7 +73,8 @@ h1 {
   padding: 5px;
   color: white;
   cursor: pointer;
-  transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+  transition: transform 0.3s ease, box-shadow 0.3s ease,
+    background-color 0.3s ease;
 }
 
 .menu-item:hover {
@@ -93,7 +93,6 @@ ul {
   flex-direction: column;
   gap: 20px;
   width: 40%;
-
 }
 
 .form-title {
@@ -139,14 +138,11 @@ ul {
 
 .submit-btn {
   background-color: #7bc043;
-
 }
 
 .reset-btn {
   background-color: #e74c3c;
 }
-
-
 
 /* sidebar css */
 .sidebar {
@@ -170,7 +166,7 @@ ul {
 
 /* Detail-page  */
 
-.detail-page{
+.detail-page {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -185,11 +181,11 @@ ul {
   }
 
   .sidebar {
-    display: none ;
+    display: none;
   }
 
   .body-content {
-    width: 100vw; 
+    width: 100vw;
   }
 
   .form-container {
@@ -197,10 +193,7 @@ ul {
     margin: 0 auto;
   }
 
-
   .form-input {
     width: 100%;
   }
-
-  
 }

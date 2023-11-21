@@ -1,22 +1,22 @@
-import { useDispatch, useSelector } from "react-redux";
+import { useSelector } from "react-redux";
 
 const Header = () => {
   const store = useSelector((store) => store);
-    let backgroundColor = "#264653";
+  let backgroundColor = "#264653";
+  // Resete basılmamışsa ve aktif olan Menu Item rengini alsın
+  if (store.selectedIndex !== null && store.menu[store.selectedIndex]) {
+    backgroundColor = store.menu[store.selectedIndex].color;
+  }
+  // resete basılmışsa ilk rengine dönsün
+  if (store.resetColor) {
+    backgroundColor = "#264653";
+  }
 
-    if (store.selectedIndex !== null && store.menu[store.selectedIndex]) {
-        backgroundColor = store.menu[store.selectedIndex].color;
-    }
+  return (
+    <div className="flex-container   header" style={{ backgroundColor }}>
+      <h1>Header</h1>
+    </div>
+  );
+};
 
-    if(store.resetColor){
-        backgroundColor = "#264653";
-    }
-
-    return (
-        <div className="flex-container   header" style={{ backgroundColor }}>
-            <h1>Header</h1>
-        </div>
-    )
-}
-
-export default Header
+export default Header;
